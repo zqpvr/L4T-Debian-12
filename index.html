@@ -3,13 +3,14 @@
   <head>
     <title>L4T-Debian-12</title>
     <style>
-      body {
-        background: linear-gradient(to top left, #20639b, #ee5155);
+      html {
+        background-image: linear-gradient(to top left, #20639b, #ee5155);
         color: #333;
         margin: 0;
         padding: 0;
+        height: 100%;
+        font: 1.1em sans-serif;
       }
-
       .icon {
         position: absolute;
         top: 20px;
@@ -18,12 +19,13 @@
       }
 
       .footer {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        background: linear-gradient(to top right, #20639b, #ee5155);
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
         width: 100%;
-        height: 50px;
+      }
+      h1,h2 {
+        text-align: center;
       }
     </style>
   </head>
@@ -41,8 +43,6 @@
       <li>XFCE desktop environment included</li>
       <li>LightDM (broken)</li>
       <li>Working Nvidia drivers</li>
-      <li>Hardware accelerated Chromium</li>
-      <li>Xorg 1.20</li>
     </ul>
     <h2>Installation Instructions</h2>
     <p>To install L4T-Debian-12 on your Nintendo Switch, follow these steps:</p>
@@ -53,9 +53,7 @@
       <li>Follow the instructions on github to complete the installation.</li>
     </ol>
     <h2>Support and Documentation</h2>
-    <p>For support, please message CTA#0780 or Robocoder#8564 on discord.</p>
-    <div class="footer">
-      <p>Note: LightDM and audio do not work as of 2023-02-19.</p>
-    </div>
+    <p>For support and documentation, please add CTA#0780 or Robocoder#8564 on discord.</p>
+    <p class="footer">Note: LightDM and audio do not work as of 2023-02-19.</p>
   </body>
 </html>
