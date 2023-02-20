@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>L4T-Debian-12</title>
+    <style>
+      body {
+        background: linear-gradient(to top left, #20639b, #ee5155);
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      .icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        height: 50px;
+      }
+
+      .toggle {
+        display: none;
+      }
+
+      .toggle + label {
+        display: block;
+        font-weight: bold;
+        margin: 10px 0;
+        cursor: pointer;
+      }
+
+      .toggle + label:before {
+        content: '\25B6';
+        margin-right: 5px;
+      }
+
+      .toggle:checked + label:before {
+        content: '\25BC';
+      }
+
+      .toggle + label + .toggle-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.2s ease;
+      }
+
+      .toggle:checked + label + .toggle-content {
+        max-height: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://discord.gg/N9PPYXjWMY" target="_blank">
+      <img class="icon" src="https://www.designpieces.com/wp-content/uploads/2017/03/Nintendo_Switch_Logo.png" alt="Switchroot Discord">
+    </a>
+    <h1>Welcome to L4T-Debian-12</h1>
+    <p>L4T-Debian-12 is a fork of Debian Bookworm that is capable of running on Nintendo Switch. Since the OS options on Nintendo Switch are very limited, we have decided to build an up to date OS for use on your Switch.</p>
+    <input id="features-toggle" class="toggle" type="checkbox">
+    <label for="features-toggle">Features</label>
+    <div class="toggle-content">
+      <ul>
+        <li>Up to date software</li>
+        <li>Easy installation</li>
+        <li>Support for Nintendo Switch</li>
+      </ul>
+    </div>
+    <input id="instructions-toggle" class="toggle" type="checkbox">
+    <label for="instructions-toggle">Installation Instructions</label>
+    <div class="toggle-content">
+      <p>To install L4T-Debian-12 on your Nintendo Switch, follow these steps:</p>
+      <ol>
+        <li>Download the installation files from github.</li>
+        <li>Extract the files to a microSD card.</li>
+        <li>Insert the microSD card into your Nintendo Switch.</li>
+        <li>Follow the instructions on github to complete the installation.</li>
+      </ol>
+    </div>
+    <input id="support-toggle" class="toggle" type="checkbox">
+    <label for="support-toggle">Support and Documentation</label>
+    <div class="toggle-content">
+      <p>For support and documentation, please add CTA#0780 or Robocoder#8564 on discord.</p>
+    </div>
+  </body>
+</html>
