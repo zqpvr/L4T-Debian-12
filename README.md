@@ -7,4 +7,4 @@ If you want to contribute changes to the wiki that would be helpful!
 
 Install goes like this
 1. Download debian.tar.gz
-2. Use this command while in the directory that you installed debian.tar.gz to then you can `sudo mkdir /debian` `sudo mv debian.tar.gz /debian` `sudo tar xvpf debian.tar.gz -C /debian`
+2. Use this command while in L4T Ubuntu and in the directory that you installed debian.tar.gz to then you can `sudo mkdir /debian` `sudo mv debian.tar.gz /debian` `sudo tar xvpf debian.tar.gz -C /debian`
