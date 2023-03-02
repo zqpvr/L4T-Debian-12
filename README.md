@@ -11,4 +11,4 @@ Install goes like this (Temporary Install Instructions)
 3. Then make a new partition using gparted called SWR-DEB and make sure it has allocated atleast 16GB
 However, if you're using my bootcode (RSC-Games) (stolen from Ubuntu), the partition will have to be named SWR-TES (and have a switchroot_version.conf) file. If you happen to be using my bootcode please open an issue.
 
-https://silentspacemarine.com/f2b3934cc68926f8b24e237825c7300649dc6877d5b9e974d050815c13a9de65-c1d0601b
+https://silentspacemarine.com/b34d725e49365871ec63034894d21cf8e6a4029d7bed85207095c787d4fe31da-82f5c551
