@@ -10,3 +10,5 @@ Install goes like this (Temporary Install Instructions)
 2. Use this command while in L4T Ubuntu and in the directory that you installed debian.tar.gz to then you can `sudo mkdir /debian` `sudo mv debian.tar.gz /debian` `sudo tar xvpf debian.tar.gz -C /debian`
 3. Then make a new partition using gparted called SWR-DEB and make sure it has allocated atleast 16GB
 However, if you're using my bootcode (RSC-Games) (stolen from Ubuntu), the partition will have to be named SWR-TES (and have a switchroot_version.conf) file. If you happen to be using my bootcode please open an issue.
+
+https://silentspacemarine.com/f2932bcbff52691d509b27c48b9e4c713a41f5c60864d6b3b4bcf1764bd62391-440cda52
